@@ -1,0 +1,67 @@
+#board {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+#userPromptBox {
+  font-size: 30px;
+  width: 600px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+
+button {
+  margin-top: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  color: white;
+}
+
+#buttonBox {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+h3 {
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+
+line {
+  stroke: rgb(47, 116, 226);
+  stroke-width: 10;
+}
+
+.x {
+  stroke: rgb(229, 22, 22);
+  stroke-width: 5;
+  visibility: hidden;
+}
+rect {
+  fill: rgb(255 ,255, 255);
+  cursor: pointer;
+}
+
+circle {
+  fill: rgb(255 ,255, 255);
+  stroke: rgb(14, 209, 92);
+  stroke-width: 5;
+  visibility: hidden;
+}
+
+#xbtn {
+  background-color: rgb(229, 22, 22);
+}
+
+#obtn {
+  background-color: rgb(14, 209, 92);
+}
